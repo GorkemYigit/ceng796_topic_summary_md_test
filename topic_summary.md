@@ -34,7 +34,7 @@ inefficiency in both storage and computation. Moreover, one-hot vectors
 do not capture any semantic relationships between words.
 
 ![One-Hot Encoding
-\[10\]](one-hot-encoding.png){width="0.5 \\columnwidth"}
+\[10\]](one-hot-encoding.png)Figure 1: One-Hot Encoding [10]
 
 Text Embeddings
 ---------------
