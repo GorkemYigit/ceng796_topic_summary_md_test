@@ -425,8 +425,9 @@ $$L_{\text{simple}} = \mathbb{E}_{t, x_0, \epsilon}$$
 $$\left[ \|\epsilon - \epsilon_\theta(x_t, t) \|^2 \right]$$
 
 $$
-L_{\text{simple}} = \mathbb{E}_{t, x_0, \epsilon} \left[ \|\epsilon - \epsilon_\theta(x_t, t) \|^2 \right]
+L_{\text{simple}} = \mathbb{E}_{t, x\_0, \epsilon} \left[ \|\epsilon - \epsilon\_\theta(x\_t, t) \|^2 \right]
 $$
+
 
 
 where
