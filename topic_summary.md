@@ -35,7 +35,9 @@ do not capture any semantic relationships between words.
 
 ![One-Hot Encoding
 \[10\]](one-hot-encoding.png)Figure 1: One-Hot Encoding [10]
-
+<p align="center">
+This is a centered paragraph in GitHub Markdown.
+</p>
 Text Embeddings
 ---------------
 
