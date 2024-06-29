@@ -327,7 +327,7 @@ $$
 \mathcal{L}_{AR} = - \sum_{t=N+1}^{T} \log p(x_{t} \mid x_{<t})
 $$
 
-
+something
 -   N denotes the number of tokens (256) used for the textual
     description.
 
