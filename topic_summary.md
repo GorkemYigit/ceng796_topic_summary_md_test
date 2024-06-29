@@ -324,7 +324,19 @@ to minimize the difference between the autoregressively predicted tokens
 and the actual tokens at each step. It can be formulated as:
 
 $$
+\mathcal{L}_{\text{AR}} = -\sum_{t=N + 1}^{T} \log p(x_t \vert x_{<t})
+$$
+
+$$
 \mathcal{L}_{\text{AR}} = -\sum_{t=N + 1}^{T} \log p(x_t \mid x_{<t})
+$$
+
+$$
+\mathcal{L}_{\text{AR}} = -\sum_{t=N+1}^{T} \log p(x_t \mid x_{<t})
+$$
+
+$$
+\mathcal{L}_{\text{AR}} = -\sum_{t=N + 1}^{T} \log p(x_t \vert x_{<t})
 $$
 
 $$
@@ -332,19 +344,7 @@ $$
 $$
 
 $$
-\mathcal{L}\_{\text{AR}} = -\sum_{t=N + 1}^{T} \log p(x\_t \mid x\_{<t})
-$$
-
-$$
-\mathcal{L}\_{\text{AR}} = -\sum_{t=N+1}^{T} \log p(x_t \mid x_{<t})
-$$
-
-$$
-\mathcal{L}_{\text{AR}} = -\sum_{t=N + 1}^{T} \log p(x_t \mid x_{<t})
-$$
-
-$$
-\mathcal{L}\_{\text{AR}} = -\sum\_{t=N+1}^{T} \log p(x_t \mid x_{<t})
+\mathcal{L}\_{\text{AR}} = -\sum_{t=N + 1}^{T} \log p(x\_t \vert x\_{<t})
 $$
 
 
