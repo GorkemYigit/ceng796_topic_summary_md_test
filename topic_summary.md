@@ -327,6 +327,27 @@ $$ \mathcal{L} _{\text{AR}} = - \sum _{t=N + 1} ^{T} \log p(x_t \vert x_ {<t}) $
 
 ayır
 
+$$
+\mathcal{L}_{\text{AR}} = -\sum_{t=N + 1}^{T} \log p(x_t \vert x_{<t})
+$$
+
+$$
+\mathcal{L}\_{\text{AR}} = -\sum\_{t=N+1}^{T} \log p(x\_t \vert x\_{<t})
+$$
+
+$$
+\mathcal{L}_{\text{AR}} = -\sum_{t=N+1}^{T} \log p(x_t \vert x_{<t})
+$$
+
+$$
+\mathcal{L}\_{\text{AR}} = -\sum_{t=N + 1}^{T} \log p(x_t \vert x\_{<t})
+$$
+
+$$
+\mathcal{L}_{\text{AR}} = -\sum_{t=N + 1}^{T} \log p(x\_t \vert x_{<t})
+$$
+
+
 $$\mathcal{L}\_{\text{AR}} = -\sum_{t=N+1}^{T} \log p(x_t \mid x_{<t})$$
 
 
