@@ -422,7 +422,9 @@ The training objective for the backward process is:
 
 $$L_{\text{simple}} = \mathbb{E}_{t, x_0, \epsilon}$$
 
-$$L_{\text{simple}} = \mathbb{E}_{t, x_0, \epsilon} \left[ \|\epsilon - \epsilon_\theta(x_t, t) \|^2 \right]$$
+$$\left[ \|\epsilon - \epsilon_\theta(x_t, t) \|^2 \right]$$
+
+$$[ \|\epsilon - \epsilon_\theta(x_t, t) \|^2]$$
 
 where
 $x_t = \sqrt{\bar{\alpha}_t} x_0 + \sqrt{1 - \bar{\alpha}_t} \epsilon$
