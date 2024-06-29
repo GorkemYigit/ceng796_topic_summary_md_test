@@ -433,6 +433,10 @@ and $\epsilon \sim \mathcal{N}(0, \mathbf{I})$.
 In the paper, however, the diffusion process is done on the latent
 space.
 
+$$
+L_{\text{LDM}} := \mathbb{E}_{\mathcal{E}(x), \epsilon \sim \mathcal{N}(0,1), t} \left[ \left\| \epsilon - \epsilon_{\theta}(z\_t, t) \right\|^2_2 \right]
+$$
+
 $$L_{\text{LDM}} := \mathbb{E}_{\mathcal{E}(x), \epsilon \sim \mathcal{N}(0,1), t} \left[ \left\| \epsilon - \epsilon_{\theta}(z_t, t) \right\|^2_2 \right]$$
 
 Samples from p(x) can be efficiently decoded into the latent space using
