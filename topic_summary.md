@@ -323,15 +323,8 @@ The training loss is simply an autoregressive cross-entropy loss, aiming
 to minimize the difference between the autoregressively predicted tokens
 and the actual tokens at each step. It can be formulated as:
 
-$$\mathcal{L}_{AR} = - \sum\_{t=N+1}^{T} \log p(x\_{t} \mid)$$
+$$\mathcal{L}_{AR} = - \sum\_{t=N+1}^{T} \log p(x\_{t} \mid x\_{< t} )$$
 
-$$ x\_{< t} $$
-
-$$&lt;t$$
-
-$$
-\mathcal{L}_{AR} = - \sum_{t=N+1}^{T} \log p(x_{t} \mid x_{<t})
-$$
 
 -   N denotes the number of tokens (256) used for the textual
     description.
