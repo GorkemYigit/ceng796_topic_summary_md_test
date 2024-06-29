@@ -379,12 +379,15 @@ indistinguishable from the real ones.
 $$
 \mathcal{L}_{\text{total}} = \mathcal{L}_{\text{perceptual}} + \lambda_{adv} \mathcal{L}_{\text{adversarial}}
 $$
+
 $$
 \mathcal{L}\_{\text{total}} = \mathcal{L}\_{\text{perceptual}} + \lambda\_{adv} \mathcal{L}\_{\text{adversarial}}
 $$
+
 $$
 \mathcal{L}\_{\text{total}} = \mathcal{L}\_{\text{perceptual}} + \lambda\_{\text{adv}} \mathcal{L}\_{\text{adversarial}}
 $$
+
 $$
 \mathcal{L}_{\text{total}} = \mathcal{L}_{\text{perceptual}} + \lambda\_{adv} \mathcal{L}_{\text{adversarial}}
 $$
