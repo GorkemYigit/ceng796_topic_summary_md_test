@@ -409,7 +409,7 @@ process without iterating through each timestamp using
 
 $$q(x_t | x_0) = \mathcal{N}(x_t; \sqrt{\bar{\alpha}_t} x_0, (1 - \bar{\alpha}_t) \mathbf{I})$$
 
-where $\hspace{25pt} \bar{\alpha}_t = \prod_{s=1}^{t} (1 - \beta_s)$.\
+where $ \bar{\alpha}_t = \prod_{s=1}^{t} (1 - \beta_s)$.\
 In the **backward process**, the goal is to remove the noise added in
 the forward process, effectively sampling data from the original
 distribution, or **generating new data**. To achieve this, a neural
