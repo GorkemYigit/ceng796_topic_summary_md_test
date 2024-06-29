@@ -123,8 +123,7 @@ other pair, those being the incorrect ones. This is called Contrastive
 Loss.
 
 ![Contrastive Pretraining of CLIP
-\[7\]](contrastive_pretraining.png){#fig:enter-label
-width="0.75\\linewidth"}
+\[7\]](contrastive_pretraining.png)Figure 2: Contrastive Pretraining of CLIP [7]
 
 As a result of this pretraining technique, intuitively, one can imagine
 the output of these image and text pairs to correspond to similar (same,
@@ -202,7 +201,7 @@ multi-modal two-stream model in an attempt to learn joint
 representations.
 
 ![Cross-Modal Attention Depiction from ViLBERT
-\[4\]](ViLBERT.png){#fig:enter-label width="1\\linewidth"}
+\[4\]](ViLBERT.png)Figure 3: Cross-Modal Attention Depiction from ViLBERT [4]
 
 Applications of Cross-Modal Attention
 -------------------------------------
@@ -218,8 +217,7 @@ different modalities, is used in many fields.
     idea can be seen in Figure 4.
 
     ![Cross-Modal Attention Visualized
-    \[11\]](cross_modal_attention.png){#fig:enter-label
-    width="1\\linewidth"}
+    \[11\]](cross_modal_attention.png)Figure 4: Cross-Modal Attention Visualized [11
 
 -   **Visual Question Answering (VQA):** In visual question-answering
     tasks, cross-modal attention is utilized for focusing on the
@@ -229,8 +227,7 @@ different modalities, is used in many fields.
     Answering)
 
     ![Visual Question-Answering
-    \[1\]](visual_question_answering.png){#fig:enter-label
-    width="1\\linewidth"}
+    \[1\]](visual_question_answering.png)Figure 5: Visual Question-Answering [1
 
 -   **Text-to-Image Generation:** A vital, and very popular task of
     vision-language integration. Of course, being the main focus of this
@@ -300,7 +297,7 @@ distance between the learned posterior distribution to the prior
 distribution.
 
 ![The dVAE architecture (DALL-E Stage 1)
-\[8\]](0_yosQ9u0cmtipniHZ.jpeg){#fig:enter-label width="1\\linewidth"}
+\[8\]](0_yosQ9u0cmtipniHZ.jpeg)Figure 6: The dVAE architecture (DALL-E Stage 1) [8]
 
 **Stage 2 - Training the Transformer:** The transformer in this
 architecture is responsible for catching the relationship between the
@@ -334,7 +331,7 @@ $$\mathcal{L}_{AR} = - \sum\_{t=N+1}^{T} \log p(x\_{t} \mid x\_{< t} )$$
 -   t denotes the index of the current token.
 
 ![The transformer architecture (DALL-E Stage 2)
-\[8\]](stage2.jpg){#fig:enter-label width="1\\linewidth"}
+\[8\]](stage2.jpg)Figure 7: The transformer architecture (DALL-E Stage 2) [8]
 
 ### Capabilities and Examples
 
@@ -346,7 +343,7 @@ as learn zero-shot. It can seamlessly combine multiple concepts that in
 real life have no relevance whatsoever.
 
 ![Some qualitative results of DALL-E.
-\[8\]](dall_e_prompts.png){#fig:enter-label width="1\\linewidth"}
+\[8\]](dall_e_prompts.png)Figure 8: Some qualitative results of DALL-E. [8]
 
 Stable Diffusion
 ----------------
@@ -446,7 +443,7 @@ time-conditional UNet structure. This backbone works in the latent space
 to carry out the denoising process.
 
 ![The architecture of the UNet Backbone in Stable Diffusion
-\[9\]](sd_unet_backbone.png){#fig:enter-label width="0.75\\linewidth"}
+\[9\]](sd_unet_backbone.png)Figure 9: The architecture of the UNet Backbone in Stable Diffusion [9]
 
 The UNet backbone, whose architecture can be seen in Figure 9, contains
 cross-attention layers. These cross-attention layers provide
@@ -484,8 +481,7 @@ example of object removal using Stable Diffusion in Figure 10.
 decoder.
 
 ![Conditional Image Generation using Stable Diffusion
-\[9\]](stable_diffusion_prompts.png){#fig:enter-label
-width="0.92\\linewidth"}
+\[9\]](stable_diffusion_prompts.png)Figure 10: Conditional Image Generation using Stable Diffusion [9]
 
 References
 ==========
