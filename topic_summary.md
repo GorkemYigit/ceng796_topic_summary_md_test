@@ -376,6 +376,20 @@ the original and the reconstructed image, and an adversarial loss, a
 GAN-inspired loss that improves realism by making the generated images
 indistinguishable from the real ones.
 
+$$
+\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{perceptual}} + \lambda_{adv} \mathcal{L}_{\text{adversarial}}
+$$
+$$
+\mathcal{L}\_{\text{total}} = \mathcal{L}\_{\text{perceptual}} + \lambda\_{adv} \mathcal{L}\_{\text{adversarial}}
+$$
+$$
+\mathcal{L}\_{\text{total}} = \mathcal{L}\_{\text{perceptual}} + \lambda\_{\text{adv}} \mathcal{L}\_{\text{adversarial}}
+$$
+$$
+\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{perceptual}} + \lambda\_{adv} \mathcal{L}_{\text{adversarial}}
+$$
+
+
 $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{perceptual}} + \lambda_{adv} \mathcal{L}_{\text{adversarial}}$$
 
 **UNet Backbone:** The main part of this model is the UNet Backbone that
