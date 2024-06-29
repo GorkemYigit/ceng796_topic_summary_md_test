@@ -546,6 +546,7 @@ ArXiv. /abs/1606.00061\
 $\hspace{20pt}$ \[6\] N, K. D. (2021). Using Large Pre-Trained Models
 with Cross-Modal Attention for Multi-Modal Emotion Recognition. ArXiv.
 /abs/2108.09669\
+
 $\hspace{20pt}$ \[7\] Radford, A., Kim, J. W., Hallacy, C., Ramesh, A.,
 Goh, G., Agarwal, S., Sastry, G., Askell, A., Mishkin, P., Clark, J.,
 Krueger, G., & Sutskever, I. (2021). Learning Transferable Visual Models
@@ -562,6 +563,7 @@ Diffusion Models. ArXiv. /abs/2112.10752\
 $\hspace{20pt}$ \[10\] TensorFlow, \"Word embeddings\". Available at:
  https://www.tensorflow.org/text/guide/word\_embeddings \[Accessed:
 2024-06-18\].\
+
 $\hspace{20pt}$ \[11\] Xu, K., Ba, J., Kiros, R., Cho, K., Courville,
 A., Salakhutdinov, R., Zemel, R., & Bengio, Y. (2015). Show, Attend and
 Tell: Neural Image Caption Generation with Visual Attention. ArXiv.
