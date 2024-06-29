@@ -419,6 +419,7 @@ parameterized by $\theta$, and $\sigma_t$ can be either fixed or
 learned.
 
 The training objective for the backward process is:
+
 $$L_{\text{simple}} = \mathbb{E}_{t, x_0, \epsilon} \left[ \|\epsilon - \epsilon_\theta(x_t, t) \|^2 \right]$$
 
 where
