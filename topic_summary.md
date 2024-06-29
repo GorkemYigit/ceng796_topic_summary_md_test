@@ -38,6 +38,7 @@ do not capture any semantic relationships between words.
 <p align="center">
 Figure 1: One-Hot Encoding [10]
 </p>
+
 Text Embeddings
 ---------------
 
@@ -125,7 +126,11 @@ other pair, those being the incorrect ones. This is called Contrastive
 Loss.
 
 ![Contrastive Pretraining of CLIP
-\[7\]](contrastive_pretraining.png)Figure 2: Contrastive Pretraining of CLIP [7]
+\[7\]](contrastive_pretraining.png)
+
+<p align="center">
+Figure 2: Contrastive Pretraining of CLIP [7]
+</p>
 
 As a result of this pretraining technique, intuitively, one can imagine
 the output of these image and text pairs to correspond to similar (same,
@@ -203,7 +208,11 @@ multi-modal two-stream model in an attempt to learn joint
 representations.
 
 ![Cross-Modal Attention Depiction from ViLBERT
-\[4\]](ViLBERT.png)Figure 3: Cross-Modal Attention Depiction from ViLBERT [4]
+\[4\]](ViLBERT.png)
+
+<p align="center">
+Figure 3: Cross-Modal Attention Depiction from ViLBERT [4]
+</p>
 
 Applications of Cross-Modal Attention
 -------------------------------------
@@ -219,7 +228,10 @@ different modalities, is used in many fields.
     idea can be seen in Figure 4.
 
     ![Cross-Modal Attention Visualized
-    \[11\]](cross_modal_attention.png)Figure 4: Cross-Modal Attention Visualized [11
+    \[11\]](cross_modal_attention.png)
+<p align="center">
+Figure 4: Cross-Modal Attention Visualized [11]
+</p>
 
 -   **Visual Question Answering (VQA):** In visual question-answering
     tasks, cross-modal attention is utilized for focusing on the
@@ -229,7 +241,10 @@ different modalities, is used in many fields.
     Answering)
 
     ![Visual Question-Answering
-    \[1\]](visual_question_answering.png)Figure 5: Visual Question-Answering [1
+    \[1\]](visual_question_answering.png)
+<p align="center">
+Figure 5: Visual Question-Answering [1]
+</p>
 
 -   **Text-to-Image Generation:** A vital, and very popular task of
     vision-language integration. Of course, being the main focus of this
