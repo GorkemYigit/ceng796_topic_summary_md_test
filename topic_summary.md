@@ -437,13 +437,6 @@ $$
 L_{\text{LDM}} := \mathbb{E}_{\mathcal{E}(x), \epsilon \sim \mathcal{N}(0,1), t} \left[ \left\| \epsilon - \epsilon\_{\theta}(z\_t, t) \right\|^2\_2 \right]
 $$
 
-
-$$
-L_{\text{LDM}} := \mathbb{E}_{\mathcal{E}(x), \epsilon \sim \mathcal{N}(0,1), t} \left[ \left\| \epsilon - \epsilon_{\theta}(z\_t, t) \right\|^2_2 \right]
-$$
-
-$$L_{\text{LDM}} := \mathbb{E}_{\mathcal{E}(x), \epsilon \sim \mathcal{N}(0,1), t} \left[ \left\| \epsilon - \epsilon_{\theta}(z_t, t) \right\|^2_2 \right]$$
-
 Samples from p(x) can be efficiently decoded into the latent space using
 the decoder. The neural backbone $\epsilon_{\theta}(\circ, t)$ is a
 time-conditional UNet structure. This backbone works in the latent space
