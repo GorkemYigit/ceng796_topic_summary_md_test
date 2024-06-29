@@ -297,7 +297,7 @@ The first part, being the reconstruction loss, measures how accurately
 the dVAE decoder can reconstruct the image from its encoded latent
 variables. The second part, being the KL divergence, measures the
 distance between the learned posterior distribution to the prior
-distribution.\
+distribution.
 
 ![The dVAE architecture (DALL-E Stage 1)
 \[8\]](0_yosQ9u0cmtipniHZ.jpeg){#fig:enter-label width="1\\linewidth"}
@@ -443,7 +443,7 @@ $$
 Samples from p(x) can be efficiently decoded into the latent space using
 the decoder. The neural backbone $\epsilon_{\theta}(\circ, t)$ is a
 time-conditional UNet structure. This backbone works in the latent space
-to carry out the denoising process.\
+to carry out the denoising process.
 
 ![The architecture of the UNet Backbone in Stable Diffusion
 \[9\]](sd_unet_backbone.png){#fig:enter-label width="0.75\\linewidth"}
@@ -474,11 +474,11 @@ tasks:
 
 **Conditional (for example, Text-to-) Image Generation:** Thanks to the
 cross-attention layers in the UNet backbone, Stable Diffusion manages to
-generate images based on conditions from different modalities.\
+generate images based on conditions from different modalities.
 
 **Image Impainting:** Stable Diffusion is very successful at filling the
 missing parts of an image, object removal for example. You can find an
-example of object removal using Stable Diffusion in Figure 10.\
+example of object removal using Stable Diffusion in Figure 10.
 
 **Upsampling:** Stable Diffusion can upsample a given image using its
 decoder.
