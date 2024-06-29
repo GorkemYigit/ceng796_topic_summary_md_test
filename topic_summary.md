@@ -325,7 +325,7 @@ and the actual tokens at each step. It can be formulated as:
 
 $$\mathcal{L}_{AR} = - \sum\_{t=N+1}^{T} \log p(x\_{t} \mid)$$
 
-$$ x\_{&lt;t} $$
+$$ x\_{< t} $$
 
 $$&lt;t$$
 
