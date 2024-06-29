@@ -314,7 +314,10 @@ distance between the learned posterior distribution to the prior
 distribution.
 
 ![The dVAE architecture (DALL-E Stage 1)
-\[8\]](0_yosQ9u0cmtipniHZ.jpeg)Figure 6: The dVAE architecture (DALL-E Stage 1) [8]
+\[8\]](0_yosQ9u0cmtipniHZ.jpeg)
+<p align="center">
+Figure 6: The dVAE architecture (DALL-E Stage 1) [8]
+</p>
 
 **Stage 2 - Training the Transformer:** The transformer in this
 architecture is responsible for catching the relationship between the
@@ -348,7 +351,11 @@ $$\mathcal{L}_{AR} = - \sum\_{t=N+1}^{T} \log p(x\_{t} \mid x\_{< t} )$$
 -   t denotes the index of the current token.
 
 ![The transformer architecture (DALL-E Stage 2)
-\[8\]](stage2.jpg)Figure 7: The transformer architecture (DALL-E Stage 2) [8]
+\[8\]](stage2.jpg)
+
+<p align="center">
+Figure 7: The transformer architecture (DALL-E Stage 2) [8]
+</p>
 
 ### Capabilities and Examples
 
@@ -360,7 +367,11 @@ as learn zero-shot. It can seamlessly combine multiple concepts that in
 real life have no relevance whatsoever.
 
 ![Some qualitative results of DALL-E.
-\[8\]](dall_e_prompts.png)Figure 8: Some qualitative results of DALL-E. [8]
+\[8\]](dall_e_prompts.png)
+
+<p align="center">
+Figure 8: Some qualitative results of DALL-E. [8]
+</p>
 
 Stable Diffusion
 ----------------
@@ -460,7 +471,11 @@ time-conditional UNet structure. This backbone works in the latent space
 to carry out the denoising process.
 
 ![The architecture of the UNet Backbone in Stable Diffusion
-\[9\]](sd_unet_backbone.png)Figure 9: The architecture of the UNet Backbone in Stable Diffusion [9]
+\[9\]](sd_unet_backbone.png)
+
+<p align="center">
+Figure 9: The architecture of the UNet Backbone in Stable Diffusion [9]
+</p>
 
 The UNet backbone, whose architecture can be seen in Figure 9, contains
 cross-attention layers. These cross-attention layers provide
@@ -498,7 +513,11 @@ example of object removal using Stable Diffusion in Figure 10.
 decoder.
 
 ![Conditional Image Generation using Stable Diffusion
-\[9\]](stable_diffusion_prompts.png)Figure 10: Conditional Image Generation using Stable Diffusion [9]
+\[9\]](stable_diffusion_prompts.png)
+
+<p align="center">
+Figure 10: Conditional Image Generation using Stable Diffusion [9]
+</p>
 
 References
 ==========
