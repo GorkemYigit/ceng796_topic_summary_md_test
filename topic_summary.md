@@ -173,7 +173,7 @@ operations.
 The attention score of each token on a token i on different tokens j
 belonging to the same sequence, the formula is the following:
 
-$$Attention_i(Q, K, V) = softmax(\frac{Q_iK_j^T}{\sqrt{d_k}})V_j$$
+$$Attention_i(Q, K, V) = softmax\left(\frac{Q_iK_j^T}{\sqrt{d_k}}\right)V_j$$
 
 Q vector is from token i, whereas K and V vectors are from each token j
 for which we are calculating the attention score.
@@ -184,7 +184,7 @@ through the cross-attention process, the j tokens belong to a different
 sequence than i. The attention scores concerning multiple different
 sequences are calculated this way.
 
-$$Attention_i(Q, K, V) = softmax(\frac{Q_iK_j^T}{\sqrt{d_k}})V_j$$
+$$Attention_i(Q, K, V) = softmax\left(\frac{Q_iK_j^T}{\sqrt{d_k}}\right)V_j$$
 $$i \in s_1, \hspace{5pt} j \in s_2, \hspace{5pt} s_1 \neq s_2$$
 
 The cross-modal mechanism naturally follows the steps of the
@@ -192,7 +192,7 @@ cross-attention. Except the difference now is, that two different
 sequences come from different modalities, one from visual and the other
 from textual modality for example.
 
-$$Attention_i(Q, K, V) = softmax(\frac{Q_iK_j^T}{\sqrt{d_k}})V_j$$
+$$Attention_i(Q, K, V) = softmax\left(\frac{Q_iK_j^T}{\sqrt{d_k}}\right)V_j$$
 $$i \in s_1, \hspace{5pt} j \in s_2, \hspace{5pt} s_1 \neq s_2$$
 $$s_1 \in m_1, \hspace{5pt} s_2 \in m_2, \hspace{5pt} m_1 \neq m_2$$
 
