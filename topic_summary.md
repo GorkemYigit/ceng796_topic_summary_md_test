@@ -191,7 +191,7 @@ sequence than i. The attention scores concerning multiple different
 sequences are calculated this way.
 
 $$Attention_i(Q, K, V) = softmax\left(\frac{Q_iK_j^T}{\sqrt{d_k}}\right)V_j$$
-$$i \in s_1, \hspace{5pt} j \in s_2, \hspace{5pt} s_1 \neq s_2$$
+$$i \in s\_1, j \in s\_2, s\_1 \neq s\_2$$
 
 The cross-modal mechanism naturally follows the steps of the
 cross-attention. Except the difference now is, that two different
@@ -199,8 +199,8 @@ sequences come from different modalities, one from visual and the other
 from textual modality for example.
 
 $$Attention_i(Q, K, V) = softmax\left(\frac{Q_iK_j^T}{\sqrt{d_k}}\right)V_j$$
-$$i \in s_1, \hspace{5pt} j \in s_2, \hspace{5pt} s_1 \neq s_2$$
-$$s_1 \in m_1, \hspace{5pt} s_2 \in m_2, \hspace{5pt} m_1 \neq m_2$$
+$$i \in s\_1, j \in s\_2, s\_1 \neq s\_2$$
+$$s\_1 \in m\_1, s\_2 \in m\_2, m\_1 \neq m\_2$$
 
 The depiction can be seen in Figure 3, taken from ViLBERT (Vision and
 Language BERT), where the authors extended the BERT architecture to a
