@@ -308,7 +308,7 @@ effectively try to assign the discrete tokens to the closest entries in
 the codebook. For this purpose, the loss function is as follows:
 
 ![ELBO Derivation
-\[8\]](0_yosQ9u0cmtipniHZ.jpeg)
+\[8\]](ELBO.png)
 
 The first part, being the reconstruction loss, measures how accurately
 the dVAE decoder can reconstruct the image from its encoded latent
