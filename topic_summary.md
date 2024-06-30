@@ -202,7 +202,9 @@ from textual modality for example.
 
 $$Attention_i(Q, K, V) = softmax\left(\frac{Q_iK_j^T}{\sqrt{d_k}}\right)V_j$$
 $$i \in s\_1, j \in s\_2, s\_1 \neq s\_2$$
-$$s\_1 \in m\_1, s\_2 \in m\_2, m\_1 \neq m\_2$$
+<p align="center">
+$s_1 \in m_1, s_2 \in m_2, m_1 \neq m_2$
+</p>
 
 The depiction can be seen in Figure 3, taken from ViLBERT (Vision and
 Language BERT), where the authors extended the BERT architecture to a
