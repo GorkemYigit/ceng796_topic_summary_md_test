@@ -307,6 +307,9 @@ represent the input images using a 32x32 codebook. To do so, one should
 effectively try to assign the discrete tokens to the closest entries in
 the codebook. For this purpose, the loss function is as follows:
 
+![ELBO Derivation
+\[8\]](0_yosQ9u0cmtipniHZ.jpeg)
+
 The first part, being the reconstruction loss, measures how accurately
 the dVAE decoder can reconstruct the image from its encoded latent
 variables. The second part, being the KL divergence, measures the
