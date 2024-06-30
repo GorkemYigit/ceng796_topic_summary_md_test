@@ -192,7 +192,7 @@ sequences are calculated this way.
 
 $$Attention_i(Q, K, V) = softmax\left(\frac{Q_iK_j^T}{\sqrt{d_k}}\right)V_j$$
 <p align="center">
-$i \in s\_1, j \in s\_2, s\_1 \neq s\_2$
+$i \in s_1, j \in s_2, s_1 \neq s_2$
 </p>
 
 The cross-modal mechanism naturally follows the steps of the
